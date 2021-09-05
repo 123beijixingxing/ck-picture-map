@@ -1,0 +1,53 @@
+{
+  "name": "kinetic",
+  "version": "5.2.0",
+  "author": "Eric Rowell",
+  "contributors" : [
+    {
+      "name" : "Anton Lavrenov",
+      "email" : "lavrton@gmail.com",
+      "url" : "https://twitter.com/lavrton"
+    }
+  ],
+  "devDependencies": {
+    "chai": "1.9.2",
+    "finalhandler": "^0.3.3",
+    "grunt": "0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "0.6.0",
+    "grunt-contrib-concat": "0.5.0",
+    "grunt-contrib-copy": "~0.6.0",
+    "grunt-contrib-jshint": "0.10.0",
+    "grunt-contrib-nodeunit": "0.4.1",
+    "grunt-contrib-uglify": "0.6.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-jsdoc": "^0.5.7",
+    "grunt-mocha-phantomjs": "~0.6.0",
+    "grunt-replace": "0.7.9",
+    "grunt-shell": "~1.1.1",
+    "jsdoc": "~3.3.0-alpha9",
+    "mocha": "1.21.4",
+    "serve-static": "^1.8.0"
+  },
+  "keywords": [
+    "canvas",
+    "animations",
+    "graphic",
+    "html5"
+  ],
+  "browser": {
+    "canvas": false,
+    "jsdom": false
+  },
+  "bugs": {
+    "url": "https://github.com/lavrton/KineticJS/issues"
+  },
+  "homepage" : "http://lavrton.github.io/KineticJS/",
+  "readmeFilename": "README.md",
+  "main": "kinetic.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lavrton/KineticJS.git"
+  },
+  "license": "MIT"
+}

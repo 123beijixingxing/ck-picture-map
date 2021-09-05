@@ -1,0 +1,28 @@
+{
+  "name": "ck-picture-map",
+  "version": "1.0.0",
+  "description": "图片地图，基于canvas画布，绘制一张地图图片，可以在图片上，绘制点元素，线段元素，图标logo元素，其他几何图形等，区别于百度，腾讯，高德等开源地图，图片地图模式，是当前的图片，在图片范围内，自定义绘制数据视图，常用于小区，小镇，某范围内，用于电子围栏，防控红外线，通讯光缆，水电管道等布控线的状态检测",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/123beijixingxing/ck-picture-map.git"
+  },
+  "keywords": [
+    "cavans",
+    "kinetic",
+    "图片地图，点线图标"
+  ],
+  "author": "123beijixingxing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/123beijixingxing/ck-picture-map/issues"
+  },
+  "homepage": "https://github.com/123beijixingxing/ck-picture-map#readme",
+  "dependencies": {
+    "kinetic": "^5.2.0",
+    "konva": "^8.1.1"
+  }
+}
